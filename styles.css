@@ -1,0 +1,202 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Geostar+Fill&family=Great+Vibes&family=Herr+Von+Muellerhoff&family=Krona+One&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Sedan+SC&family=Sedan:ital@0;1&family=Updock&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Geostar+Fill&family=Great+Vibes&family=Herr+Von+Muellerhoff&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Updock&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Geostar+Fill&family=Great+Vibes&family=Herr+Von+Muellerhoff&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Sedan+SC&family=Sedan:ital@0;1&family=Updock&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1B1F38;
+    color: #FFFFFF;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1B1F38;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.logo-img {
+    width: 50px;
+
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+h1 {
+
+    /* font-family: "Geostar Fill", serif;
+  font-weight: 400;
+  font-style: normal; */
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 250px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+
+}
+
+nav ul li a:hover {
+    color: #F74FB3;
+}
+
+.btn-download {
+    padding: 8px 16px;
+    border: 2px solid #F74FB3;
+    border-radius: 10px;
+    color: #F74FB3;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: #e2b4d0ad;
+    color: #FFFFFF;
+}
+
+/* Main Content */
+.myPerfil  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.container__home  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+}
+
+.container__home__text  {
+    max-width: 50%;
+    margin-left: 200PX;
+    
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    
+    font-style: normal;
+    
+    text-align: center;
+
+    /* font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; */
+    
+}
+
+.highlight {
+    color: #F74FB3;
+}
+
+.container__home__parrafo {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #D1D1E9;
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: justify;
+  
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.btn__social {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid #F74FB3;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+    width: 220px
+}
+
+.btn__social:hover {
+    background-color: #F74FB3;
+    color: #FFFFFF;
+}
+
+.btn__social img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.container__home_image {
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 130px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    /* border-top: 1px solid #FFFFFF; */
+}
+
+
+

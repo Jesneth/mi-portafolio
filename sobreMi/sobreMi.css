@@ -1,0 +1,59 @@
+
+.container__sobreMi{
+    margin-top:70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+    
+}
+
+@media screen and (min-width: 1024px){
+    .sobreMi{
+       max-width: 1200px; 
+       margin:auto;
+    }
+    
+}
+
+.container__sobreMi__text{
+    margin-left: 235px;
+    width: 30%;
+}
+.h3SobreMi{
+    border-bottom: 4px solid rgba(400, 37, 150, 0.822);
+    width: 150px;
+}
+
+.sobreMi__parrafo{
+    text-align: justify;
+    line-height: 1.5;
+    color: #D1D1E9;
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: justify;
+    margin-bottom: 25px; 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
